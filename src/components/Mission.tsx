@@ -48,28 +48,30 @@ export function Mission() {
       </section>
 
       <section className="progress-story section-pad" aria-labelledby="progress-title">
-        <div className="progress-copy">
-          <p className="eyebrow light">The story so far</p>
-          <h2 id="progress-title">From separate efforts to a shared mission.</h2>
-          <p>
-            The clearest progress is not a number yet. It is twelve church bodies
-            crossing denominational lines to serve one community together. Verified
-            results can be added here as the local team reports them.
-          </p>
-          <a className="button button-gold" href={DONATION_URL}>
-            Partner with the mission <span aria-hidden="true">↗</span>
-          </a>
-        </div>
+        <div className="progress-layout">
+          <div className="progress-copy">
+            <p className="eyebrow light">The story so far</p>
+            <h2 id="progress-title">From separate efforts to a shared mission.</h2>
+            <p>
+              The clearest progress is not a number yet. It is twelve church bodies
+              crossing denominational lines to serve one community together. Verified
+              results can be added here as the local team reports them.
+            </p>
+            <a className="button button-gold" href={DONATION_URL}>
+              Partner with the mission <span aria-hidden="true">↗</span>
+            </a>
+          </div>
 
-        <ol className="timeline">
-          {progressMilestones.map((milestone) => (
-            <li key={milestone.label}>
-              <span>{milestone.label}</span>
-              <h3>{milestone.title}</h3>
-              <p>{milestone.description}</p>
-            </li>
-          ))}
-        </ol>
+          <ol className="timeline">
+            {progressMilestones.map((milestone) => (
+              <li key={milestone.label}>
+                <span>{milestone.label}</span>
+                <h3>{milestone.title}</h3>
+                <p>{milestone.description}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
       </section>
     </>
   );
