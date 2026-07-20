@@ -70,7 +70,7 @@ export const stories = [
     className: "rust",
     imageLabel: "Mission team photo",
     type: "Team reflection",
-    title: "What your friends witnessed",
+    title: "A reflection from the field",
     description:
       "Add a short reflection focused on what God is doing through local believers.",
   },

@@ -9,8 +9,9 @@ export function Stories() {
           <h2>Show the people, not merely the need.</h2>
         </div>
         <p>
-          Replace these cards with permission-cleared photographs and first-person
-          accounts from local leaders, participants, and the mission team.
+          These cards are reserved for permission-cleared photographs and
+          first-person accounts from local leaders, participants, and the mission
+          team.
         </p>
       </div>
 

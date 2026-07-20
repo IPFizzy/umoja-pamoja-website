@@ -42,11 +42,11 @@ export function Hero() {
             <div className="arch-field arch-field-two" />
             <div className="arch-field arch-field-three" />
             <p>
-              <strong>Mission photo</strong>
-              <span>Replace with a permission-cleared team image</span>
+              <strong>Field photography</strong>
+              <span>Approved ministry image forthcoming</span>
             </p>
           </div>
-          <p className="photo-note">Your team&apos;s story belongs here</p>
+          <p className="photo-note">Ministry image placeholder</p>
         </div>
       </section>
 

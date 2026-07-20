@@ -16,15 +16,15 @@ export function Giving() {
           </div>
           <div className="accountability-copy">
             <p>
-              Keep this page focused on the story and send donations through AIM&apos;s
-              established secure giving page. Before publishing, the organization
-              should add a current funding goal, reporting date, and a clear breakdown
-              of how gifts support each ministry activity.
+              Donations are directed through AIM&apos;s established secure giving page.
+              As reporting is confirmed, this section will present a current funding
+              goal, reporting date, and clear breakdown of how gifts support each
+              ministry activity.
             </p>
             <ul>
-              <li><span>01</span> Add a verified campaign goal and amount raised.</li>
-              <li><span>02</span> Explain what common gift amounts make possible.</li>
-              <li><span>03</span> Publish dated updates from accountable local leaders.</li>
+              <li><span>01</span> Verified campaign goal and amount raised.</li>
+              <li><span>02</span> Practical examples of what common gifts make possible.</li>
+              <li><span>03</span> Dated updates from accountable local leaders.</li>
             </ul>
           </div>
         </div>
@@ -48,11 +48,11 @@ export function Giving() {
         </div>
 
         <div className="final-cta">
-          <p className="eyebrow light">Your part in the story</p>
+          <p className="eyebrow light">Partner in the mission</p>
           <h2>Pray. Give. Help the local Church go farther together.</h2>
           <p>
-            Your generosity supports AIM&apos;s partnership with the Umoja Pamoja
-            Youth Outreach project.
+            Donations support AIM&apos;s partnership with the Umoja Pamoja Youth
+            Outreach project.
           </p>
           <a className="button button-gold" href={DONATION_URL}>
             Give through AIM <span aria-hidden="true">↗</span>
