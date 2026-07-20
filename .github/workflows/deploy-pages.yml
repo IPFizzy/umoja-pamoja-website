@@ -37,7 +37,8 @@ jobs:
         uses: actions/configure-pages@v6
 
       - name: Upload website artifact
-        uses: actions/upload-pages-artifact@v4
+        # Node.js 24-compatible revision from the official action repository.
+        uses: actions/upload-pages-artifact@98ef48e41587a300b82de4cf298aa98b57b2faae
         with:
           path: dist
 
