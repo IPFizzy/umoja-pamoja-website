@@ -154,7 +154,7 @@ p {
 .hero {
   min-height: 490px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(430px, 1fr);
+  grid-template-columns: minmax(0, 1.12fr) minmax(420px, 0.88fr);
   gap: clamp(36px, 4vw, 64px);
   padding: clamp(34px, 4vw, 54px) clamp(28px, 5vw, 80px) 0;
   overflow: hidden;
